@@ -5,6 +5,8 @@ import { demoBlockPlugin } from "vitepress-theme-demoblock"
 export default defineConfig({
   title: "LY-UI",
   description: "lyui",
+  base: "LY-UI",
+  cleanUrls: true,
   head: [["link", { rel: "icon", href: "../public/favicon.ico" }]],
   themeConfig: {
     search: {
