@@ -1,0 +1,7 @@
+{
+  "name": "@ly-ui/components",
+  "dependencies": {
+    "@ly-ui/theme-chalk": "workspace:^",
+    "@ly-ui/utils": "workspace:^"
+  }
+}

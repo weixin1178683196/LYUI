@@ -1,0 +1,15 @@
+{
+    "name": "tree",
+    "version": "0.0.2",
+    "description": "Vue3组件库，beta版本仅用来测试发布",
+    "main": "index.umd.js",
+    "module":"index.mjs",
+    "repository": {
+      "type": "git",
+      "url": "https://gitee.com/it-stands-to-reason/lyui.git"
+    },
+    "keywords": ["vue3", "组件库", "UI"],
+    "author": "ly",
+    "license": "ISC"
+  }
+  
