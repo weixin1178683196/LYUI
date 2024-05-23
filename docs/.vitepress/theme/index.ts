@@ -1,5 +1,6 @@
 import DefaultTheme from "vitepress/theme"
 import "./demo-block.scss"
+import "./style.css" 
 import "@ly-ui/theme-chalk/src/index.scss"
 import LYUI from "@ly-ui/components"
 import { registerComponents } from "./register-components"
