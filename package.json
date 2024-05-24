@@ -12,6 +12,7 @@
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "build:component": "node ./scripts/build.js",
+    "docs:deploy": "sh ./scripts/deploy.sh",
     "build:style": "pnpm run -C packages/theme-chalk build",
     "preview": "vite preview",
     "preinstall": "npx only-allow pnpm",
@@ -20,7 +21,7 @@
     "docs:preview": "pnpm run -C docs preview",
     "lint": "eslint packages",
     "test": "vitest",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
   },
   "dependencies": {
     "@ly-ui/components": "workspace:^",

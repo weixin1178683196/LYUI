@@ -15,12 +15,12 @@ pnpm install vue3-ly-ui
 
 ```ts
 import { createApp } from 'vue'
+import LYUI from 'vue3-ly-ui'
+import 'vue3-ly-ui/index.css'
 import App from './App.vue'
-import { LyUI } from 'vue3-ly-ui'
-import 'vue3-ly-ui/dist/style.css'
 
 const app = createApp(App)
 
-app.use(LyUI).mount('#app')
+app.use(LYUI).mount('#app')
 ```
 
